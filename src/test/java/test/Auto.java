@@ -6,7 +6,7 @@ public class Auto {
 	int precio;
 	Asiento [] asientos;
 	String marca;
-	String motor;
+	Motor motor;
 	int registro;
 	static int cantidadCreados;
 
@@ -26,16 +26,14 @@ return contAsiento;
 				if (asientos[i] != null) {
 					if (asientos[i].registro != registro) {
 						return "Las piezas no son originales";
-					}
-				}
-			}
+														}
+										}
+													}
 			return "Auto original";
+									}
 			else {
 				return "Las piezas no son originales";
-			}
-		}
-		
-	}
-	
+				}
+								}	
 	
 }
